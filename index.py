@@ -2,7 +2,7 @@
 #so that all even numbers appear before all odd numbers
 
 def special_rearrangement(nums):
-    # Define two lists
+    # Define two empty lists
     even_numbs = []
     odd_numbs = []
     
@@ -16,7 +16,7 @@ def special_rearrangement(nums):
     # Concatinating even and odd numbers 
     return even_numbs + odd_numbs
     
-#generating example
-nums = [6, 5, 1, 3, 2, 10,13]
+
+nums = [6, 5, 1, 3, 2, 10,13] #--> [6,2,10,5,1,3,13]
 result = special_rearrangement(nums)
 print(result)  
